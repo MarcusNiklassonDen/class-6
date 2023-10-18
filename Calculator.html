@@ -1,0 +1,25 @@
+<script>
+
+    var number1 = prompt("Input nummber 1") //saves input
+    var operator = prompt("Operator /*-+")  //saves input
+    var number2 = prompt("Input nummber 2") //saves input
+
+    if (operator == "+") { //dont know why this dosent work, it puts number1 and number2 side by side but dosent add them
+        result = (number1 + number2);
+    }
+
+    else if (operator == "-") {
+         result = (number1 - number2);
+    }
+
+    else if (operator == "*") {
+         result = (number1 * number2);
+    }
+
+    else if (operator == "/") {
+         result = (number1 / number2);
+    }
+
+    document.write(number1 + operator + number2 + "=",result); //outputs var and result
+
+</script>
